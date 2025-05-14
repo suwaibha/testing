@@ -20,12 +20,8 @@ import Css from './components/Courses/Channels/CSS/CSS.jsx';
 import Java from './components/Courses/Channels/Java/Java.jsx';
 import JS from './components/Courses/Channels/Javascript/JS.jsx';
 import Mern from './components/Courses/Channels/Mern/Mern.jsx';
-import Python from './components/Courses/Channels/Python/Python.jsx';
-import Header from './components/header/header.jsx';
-
-
-
-
+import Python from './components/Courses/Channels/Python/Python.jsx'
+import Role from './components/CompanyRoleSelector/Role.jsx';
 import Aboutus from './components/Aboutus/Aboutus.jsx'
 import Courses from './components/Courses/Courses.jsx';
 
@@ -66,6 +62,8 @@ const router = createBrowserRouter(
     <Route path='Organization' element={<Organization/>}/>
     <Route path='/'element={<Aboutus/>}/>
     <Route path='c'element={<C/>}/>
+    <Route path='Role'element={<Role/>}/>
+    
     {/* //courses */}
     <Route path='courses' element={<Courses/>}/>
     <Route path='courses/c'element={<C/>}/>
@@ -76,6 +74,7 @@ const router = createBrowserRouter(
     <Route path='courses/js'element={<JS/>}/>
     <Route path='courses/mern'element={<Mern/>}/>
     <Route path='courses/python'element={<Python/>}/>
+
     
     
     
