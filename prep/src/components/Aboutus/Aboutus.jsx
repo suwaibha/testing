@@ -71,9 +71,9 @@ function Aboutus() {
             <div className="w-[200px] h-[200px] sm:w-[200px] sm:h-[200px] md:w-[280px] md:h-[280px] bg-white flex justify-center items-center shadow-[0_4px_15px_rgba(128,128,128,0.4)] rounded-md">
               Check Your Ability
             </div>
-            <Link to="/Check">
+            <Link to="/Role">
               <button className="w-[200px] h-10 cursor-pointer bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-700 transition-shadow duration-300 mt-5 sm:ml-0">
-                Learn And Perform
+                Check Your Ability
               </button>
             </Link>
           </div>
