@@ -25,6 +25,8 @@ import Role from './components/CompanyRoleSelector/Role.jsx';
 import Aboutus from './components/Aboutus/Aboutus.jsx'
 import Courses from './components/Courses/Courses.jsx';
 
+// import Hamburger from './components/Hamburger/Humburger.jsx';
+
 
 
 // const router = createBrowserRouter([
@@ -87,6 +89,7 @@ ReactDom.createRoot(document.getElementById('root')).render(
   <StrictMode>
     <MantineProvider withGlobalStyles withNormalizeCSS>
       <RouterProvider router={router}/>
+      {/* <Hamburger/> */}
     </MantineProvider>
   </StrictMode>,
 )
