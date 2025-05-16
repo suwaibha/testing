@@ -220,11 +220,12 @@
 
 // import {Link} from 'react-router-dom';
 
-
+// main
 import {NavLink, useLocation} from 'react-router-dom';
 import { Menu, Button } from '@mantine/core';
-import React, { useState } from 'react';
-// import Hamburger from '/src/components/Hamburger/Hamburger.jsx'
+import {React, useState } from 'react';
+import Hamburger from '../Hamburger/Hamburger';
+// import Hamburger from '/src/components/Hamburger/Hamburger.jsx';
 // import Hamburger_for_large_tablets from '/src/components/Hamburger/Hamburger_for_large_tablets.jsx'
 // import { useDisclosure } from '@mantine/hooks';
 // import { Burger } from '@mantine/core';
@@ -257,7 +258,9 @@ function Navbar() {
                 <Burger size="sm" opened={opened} onClick={toggle} aria-label="Toggle navigation"/>
               </div> */}
 
-                {/* <Hamburger/> */}
+              <Hamburger/>
+
+                
 
               <div class='explore-btn hidden lg:block lg:px-3 xl:block content-center xl:px-10 xl:ps-18'>
                 <Menu trigger="hover" openDelay={100} closeDelay={100} position="bottom-start" offset={18}>
@@ -455,3 +458,4 @@ function Navbar() {
   }
   
   export default Navbar;
+
