@@ -60,7 +60,7 @@ const router = createBrowserRouter(
     <Route path='Login' element={<Login/>}/>
     <Route path='reset' element={<Reset/>}/>
     <Route path='newpassword' element={<Newpassword/>}/>
-    <Route path='Auth' element={<Auth/>}/>
+    <Route path='signup/Auth' element={<Auth/>}/>
     <Route path='Organization' element={<Organization/>}/>
     <Route path='/'element={<Aboutus/>}/>
     <Route path='c'element={<C/>}/>
